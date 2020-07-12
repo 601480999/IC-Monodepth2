@@ -8,7 +8,7 @@ See the paper on [[arXiv](https://arxiv.org/abs/2006.09876)]  for more details.
 
 ### Requirements
 
-* ` Anaconda3  Pytorch 1.0, CUDA 8.0 and Ubuntu 16.04` 
+* ` Anaconda3,  Pytorch 1.0, CUDA 8.0 and Ubuntu 16.04 ` 
 * `Monodepth2` framework (https://github.com/nianticlabs/monodepth2)
 
 
@@ -42,6 +42,19 @@ K (MS) |(192×640) |0.102    |0.776   |4.534  |0.183      |0.893  |0.963  |0.982
 K (MS) |(320×1024)|0.101    |0.725   |4.360  |0.179      |0.898  |0.965  |0.983  |
 CS+K(M)| (192×640)|0.106    |0.774   |4.623  |0.184      |0.886  |0.962  |0.983  |
 CS+K(M)|(320×1024)|0.104    |0.771   |4.463  |0.183      |0.893  |0.963  |0.982  |
+
+### Citation
+
+If you reference our work, please consider citing the following:
+
+@misc{wang2020selfsupervised,
+    title={Self-Supervised Joint Learning Framework of Depth Estimation via Implicit Cues},
+    author={Jianrong Wang and Ge Zhang and Zhenyu Wu and XueWei Li and Li Liu},
+    year={2020},
+    eprint={2006.09876},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
 
 
 ### Acknowledgements
